@@ -1,0 +1,8 @@
+flowchart TD
+OS[Windows] --> APP[PowerSDR]
+APP --> AUDIO[Audio subsystem]
+APP --> CAT[CAT / control]
+APP --> HW[SDR-1000 interface]
+AUDIO --> DSP[DttSP]
+DSP --> SC[Sound card]
+HW --> RADIO[SDR-1000]

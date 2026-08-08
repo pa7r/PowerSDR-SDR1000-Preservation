@@ -1,0 +1,10 @@
+flowchart LR
+ANT[Antenna] --> RF[RF front end]
+RF --> MIX[I/Q conversion]
+MIX --> ADC[Sound card ADC]
+ADC --> DSP[DSP]
+DSP --> OUT[Audio / Panadapter]
+DSP --> DAC[Sound card DAC]
+DAC --> TX[I/Q transmit path]
+TX --> PA[RF transmit chain]
+PA --> ANT2[Antenna]

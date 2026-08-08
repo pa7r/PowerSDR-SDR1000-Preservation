@@ -1,0 +1,7 @@
+flowchart TD
+RF[SDR-1000 RF hardware] --> IQ[I/Q interface]
+IQ --> SC[PC sound card]
+SC --> DSP[DttSP / DSP processing]
+DSP --> UI[PowerSDR user interface]
+UI --> CTRL[Radio control]
+CTRL --> RF
