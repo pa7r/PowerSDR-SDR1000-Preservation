@@ -5,3 +5,4 @@
 - Added initial documentation
 - Added architecture diagrams
 - Added measurement templates
+- Added Chapter 4 — PowerSDR Source Code Architecture
